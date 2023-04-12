@@ -1,0 +1,15 @@
+.main__button {
+  border: 2px solid #F7FAFF;
+  border-radius: 199px;
+  background-color: transparent;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #F7FAFF;
+  width: 207px;
+  height: 53px;
+  position: relative;
+  margin-top: 117px;
+}

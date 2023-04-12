@@ -4,3 +4,22 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/line/line.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__button/main__button.css);
+@import url(../blocks/main/__title/main__title.css);
+@import url(../blocks/main/__line/main__line.css);
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__peculiarities-list/info__peculiarities-list.css);
+@import url(../blocks/info/__perculiarities/info__perculiarities.css);
+@import url(../blocks/info/__text/info__text.css);
+@import url(../blocks/info/__time/info__time.css);
+@import url(../blocks/info/__title/info__title.css);
+@import url(../blocks/info/__works-time/info__works-time.css);
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+

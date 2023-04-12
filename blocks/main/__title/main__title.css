@@ -1,0 +1,12 @@
+.main__title {
+  margin: 35px 0 48px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  text-align: center;
+  color: #F7FAFF;
+  position: relative;
+  max-width: 760px;
+}
