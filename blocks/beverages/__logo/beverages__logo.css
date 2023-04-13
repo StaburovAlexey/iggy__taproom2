@@ -1,0 +1,10 @@
+.beverages__logo {
+  background-image: url(../../../img/logo__white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 111px;
+  height: 60px;
+  border: 1px solid #101010;
+  box-sizing: border-box;
+  margin: 4.1px auto 0;
+}

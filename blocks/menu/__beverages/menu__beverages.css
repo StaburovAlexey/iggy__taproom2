@@ -1,0 +1,6 @@
+.menu__beverages {
+  max-width: 362px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
