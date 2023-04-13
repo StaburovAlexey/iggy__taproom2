@@ -16,10 +16,20 @@
 @import url(../blocks/info/__time/info__time.css);
 @import url(../blocks/info/__title/info__title.css);
 @import url(../blocks/info/__works-time/info__works-time.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__beverages/menu__beverages.css);
+@import url(../blocks/menu/__img/menu__img.css);
+@import url(../blocks/menu/__block/menu__block.css);
+@import url(../blocks/menu/__kitchen/menu__kitchen.css);
+@import url(../blocks/menu/__title/menu__title.css);
+@import url(../blocks/beverages/beverages.css);
+@import url(../blocks/beverages/__logo/beverages__logo.css);
+@import url(../blocks/beverages/__table/beverages__table.css);
 @import url();
 @import url();
 @import url();
 @import url();
 @import url();
 @import url();
+
 
