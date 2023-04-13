@@ -1,0 +1,11 @@
+.rent__collage {
+  width: 1160px;
+  padding: 30px;
+  margin: 19px 0 0;
+  gap: 30px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 160px 160px 160px;
+  box-sizing: border-box;
+}

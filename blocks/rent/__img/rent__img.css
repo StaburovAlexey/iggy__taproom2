@@ -1,0 +1,21 @@
+.rent__img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.rent__img:nth-child(1) {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.rent__img:nth-child(2) {
+  object-position: 50% 75%;
+}
+
+.rent__img:nth-child(3) {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  object-position: bottom right;
+}
