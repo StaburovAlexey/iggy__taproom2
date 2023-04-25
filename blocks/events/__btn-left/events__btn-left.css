@@ -1,0 +1,14 @@
+.events__btn-left {
+  background-image: url(../../../img/row.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 20px;
+  height: 32px;
+  position: absolute;
+  top: 50%;
+  right: 71.5%
+
+}

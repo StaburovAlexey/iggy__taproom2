@@ -1,0 +1,13 @@
+.events__card-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #101010;
+  max-width: 221px;
+  white-space:normal;
+  margin: 0 auto;
+  text-align: center;
+}

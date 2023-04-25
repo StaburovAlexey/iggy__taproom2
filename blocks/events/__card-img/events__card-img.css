@@ -1,0 +1,8 @@
+.events__card-img {
+  width: 254px;
+  height: 311px;
+  object-fit: contain;
+  object-position: center;
+  margin: 15px 25px 30px;
+  display: block;
+}

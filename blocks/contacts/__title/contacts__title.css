@@ -1,0 +1,10 @@
+.contacts__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #101010;
+  margin: 16px 0 19px;
+}
