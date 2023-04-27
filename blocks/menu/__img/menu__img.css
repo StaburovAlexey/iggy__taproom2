@@ -1,0 +1,8 @@
+.menu__img {
+  background-image: url(../../../img/menu__eat.jpg);
+  width: 361px;
+  height: 513px;
+  background-position: center;
+  background-size: cover;
+  display: block;
+}

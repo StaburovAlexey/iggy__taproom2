@@ -1,0 +1,16 @@
+.rent__button {
+  border: 2px solid #F7FAFF;
+  border-radius: 199px;
+  background-color: transparent;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #F7FAFF;
+  width: 271px;
+  height: 57px;
+  margin-top: 9px;
+  margin-left: 59px;
+  align-self: flex-start;
+}

@@ -1,0 +1,12 @@
+.footer__telegram {
+  background-image: url(../../../img/telegram-icon.png);
+  width: 47.5px;
+  height: 47.5px;
+  background-color: transparent;
+  border: none;
+  background-position: center;
+  background-size: contain;
+  margin:0 23px 0 0;
+
+
+}

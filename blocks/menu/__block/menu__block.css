@@ -1,0 +1,8 @@
+.menu__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 760px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

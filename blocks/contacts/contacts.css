@@ -1,0 +1,26 @@
+.contacts {
+  background-image: url(../../img/wraper5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 42px 60px 83px;
+}
+
+.contacts:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #CAB399;
+  opacity: 0.6;
+  z-index: -1;
+}

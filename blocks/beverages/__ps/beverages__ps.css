@@ -1,0 +1,12 @@
+.beverages__ps {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: -0.035em;
+  color: #000000;
+  margin: 17px 0 7px 20px;
+
+}

@@ -1,0 +1,23 @@
+.header__menu {
+  list-style: none;
+  color: #F7FAFF;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  margin: 0;
+  padding: 92px 0 46px;
+  padding-right: 30px;
+  justify-content: space-between;
+  border-bottom: 2px solid #F7FAFF;
+  width: 498px;
+  box-sizing: border-box;
+
+}
+
+.header__menu:last-of-type {
+  padding-right: 0;
+  padding-left: 30px;
+}

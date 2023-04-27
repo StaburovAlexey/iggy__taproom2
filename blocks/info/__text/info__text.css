@@ -1,0 +1,14 @@
+.info__text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #101010;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 59px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
