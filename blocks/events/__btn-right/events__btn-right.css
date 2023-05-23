@@ -8,7 +8,9 @@
   width: 20px;
   height: 32px;
   position: absolute;
-  top: 50%;
   transform: rotate(180deg);
-  right: 27%;
+  z-index: 1;
+  right: 0;
+  bottom: 50%;
+  right:-50px;
 }

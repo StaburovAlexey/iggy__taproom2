@@ -14,3 +14,10 @@
   margin-left: 59px;
   align-self: flex-start;
 }
+
+.rent__button:hover {
+  cursor: pointer;
+  background-color: #F7FAFF;
+  color: #783a30;
+  border-color: #783a30;
+}

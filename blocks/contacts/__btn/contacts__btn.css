@@ -9,7 +9,14 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  align-items: center;
   text-align: center;
   color: #101010;
+  z-index: 3;
+}
+
+.contacts__btn:hover {
+  cursor: pointer;
+  background-color: #F7FAFF;
+  color: #783a30;
+  border-color: #783a30;
 }

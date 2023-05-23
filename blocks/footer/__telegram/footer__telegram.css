@@ -1,4 +1,5 @@
 .footer__telegram {
+  display: block;
   background-image: url(../../../img/telegram-icon.png);
   width: 47.5px;
   height: 47.5px;
@@ -6,7 +7,9 @@
   border: none;
   background-position: center;
   background-size: contain;
-  margin:0 23px 0 0;
+  margin: 0 23px 0 0;
+}
 
-
+.footer__telegram:hover {
+  cursor: pointer;
 }

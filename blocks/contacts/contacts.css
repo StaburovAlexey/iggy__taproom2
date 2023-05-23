@@ -3,11 +3,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  z-index: -2;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 42px 60px 83px;
+  z-index: 0;
 }
 
 .contacts:before {
@@ -22,5 +22,5 @@
   height: 100%;
   background-color: #CAB399;
   opacity: 0.6;
-  z-index: -1;
+  z-index: -3;
 }

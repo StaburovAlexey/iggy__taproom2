@@ -13,3 +13,10 @@
   position: relative;
   margin-top: 117px;
 }
+
+.main__button:hover {
+  cursor: pointer;
+  background-color: #F7FAFF;
+  color: #783a30;
+  border-color: #783a30;
+}
