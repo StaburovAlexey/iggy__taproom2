@@ -1,8 +1,6 @@
 .carousel {
-  white-space: nowrap;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  gap: 101px;
   width: 100%;
+  position: relative;
+  min-height: 350px;
+  overflow: hidden;
 }

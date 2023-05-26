@@ -5,9 +5,9 @@
   position: relative;
   z-index: -2;
   display: grid;
-  grid-template-columns: 560px 720px;
-  grid-template-rows: 179px 1fr;
-  padding-bottom: 31px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 1fr;
+  padding: 0 60px 31px;
 }
 
 .info:before {

@@ -1,5 +1,10 @@
 .carousel__img {
   max-width: 438px;
-  height: 248px;
+  max-height: 248px;
   display: block;
+  position: absolute;
+  object-fit: contain;
+  object-position: center;
+  transition: all .5s;
+  cursor: pointer;
 }

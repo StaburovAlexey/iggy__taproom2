@@ -1,13 +1,13 @@
 .menu {
   background-image: url(../../img/menu__background.jpg);
   position: relative;
-  background-position: top 0;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 84px 60px 104px;
   z-index: -2;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .menu:before {

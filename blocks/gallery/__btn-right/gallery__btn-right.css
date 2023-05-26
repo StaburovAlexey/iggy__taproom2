@@ -7,8 +7,9 @@
   border: none;
   width: 20px;
   height: 32px;
-  position: absolute;
-  top: 50%;
   transform: rotate(180deg);
-  right: 27%;
+  position: absolute;
+  right: 45%;
+  cursor: pointer;
+
 }
