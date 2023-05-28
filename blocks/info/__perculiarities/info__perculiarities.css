@@ -1,3 +1,9 @@
 .info__peculiarities {
   display: flex;
 }
+
+@media screen and (max-width: 1000px){
+  .info__peculiarities {
+    flex-direction: column;
+  }
+}

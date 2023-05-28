@@ -16,12 +16,14 @@
       <li><a class="link" href="#forUs">О нас</a></li>
       <li><a class="link" href="#menu">Меню</a></li>
       <li><a class="link" href="#rent">Аренда комнаты</a></li>
+      <a class="header__telegram" href="https://t.me/iggytaproom" target="_blank"></a>
     </ul>
     <img src="./img/header__logo.png" alt="" class="header__logo">
     <ul class="header__menu">
       <li><a class="link" href="#gallery">Галлерея</a></li>
       <li><a class="link" href="#sale">Акции</a></li>
       <li><a class="link" href="#contacts">Контакты</a></li>
+      <button class="header__burger"></button>
     </ul>
   </header>
 
@@ -210,19 +212,18 @@
 
         <div class="events__carousel">
           <div class="events__card">
-            <img src="./img/photo_2023-04-26_00-53-12.jpg" alt="" class="events__card-img card-img-side">
+            <img src="./img/photo_2023-04-26_00-53-12.jpg" alt="" class="events__card-img">
             <p class="events__card-text">А в воскресенье 19.03 советуем позвать близких на пиво Okka River и Villa Birra
               по 150р. Если отдыхать, то отдыхать красиво!</p>
           </div>
           <div class="events__card">
-            <button class="events__btn-left"></button>
-            <button class="events__btn-right"></button>
+
             <img src="./img/photo_2023-04-26_00-53-22.jpg" alt="" class="events__card-img">
             <p class="events__card-text">В субботу 18.03 IGGY наполнится стилем до самого потолка - за музыку отвечают
               Sanmix и Sasha Schulz</p>
           </div>
           <div class="events__card">
-            <img src="./img/photo_2023-04-26_00-53-29.jpg" alt="" class="events__card-img card-img-side">
+            <img src="./img/photo_2023-04-26_00-53-29.jpg" alt="" class="events__card-img">
             <p class="events__card-text">В пятницу 17.03 CHIEF ROCKA в очередной раз раскачают наши тела и души!
               Надеваем одежду для танцев - BUBBLE G. и BULLETMAN уже близко</p>
           </div>
@@ -248,6 +249,8 @@
           </div>
         </div>
 
+        <button class="events__btn-left btn-navigation-card" data-dir="left"></button>
+        <button class="events__btn-right btn-navigation-card" data-dir="right"></button>
       </div>
     </div>
     <div class="contacts">
@@ -289,6 +292,7 @@
     </ul>
   </footer>
   <script src="./index.js"></script>
+  <script src="./cardSlider.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,17 @@
+.header__burger {
+  background-image: url(../../../img/burger__menu.svg);
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border: none;
+  background-position: center;
+  background-size: cover;
+  display: none;
+  margin:0 0 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .header__burger {
+    display: block;
+  }
+}

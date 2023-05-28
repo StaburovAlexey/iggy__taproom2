@@ -8,3 +8,11 @@
   color: #101010;
 
 }
+
+@media screen and (max-width: 1000px) {
+  .info__works-time {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+  }
+}

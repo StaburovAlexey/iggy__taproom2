@@ -10,3 +10,9 @@
   margin: 51px 41px 0 0;
 
 }
+
+@media screen and (max-width: 1023px){
+  .footer__menu {
+    display: none;
+  }
+}

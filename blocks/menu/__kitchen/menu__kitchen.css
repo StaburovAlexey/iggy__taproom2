@@ -5,3 +5,11 @@
   gap: 33px;
   margin-bottom: 50px;
 }
+
+@media screen and (max-width: 769px) {
+  .menu__kitchen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

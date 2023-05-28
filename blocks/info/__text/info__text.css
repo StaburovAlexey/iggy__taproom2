@@ -13,3 +13,14 @@
   grid-column-end: 3;
   display: inline;
 }
+
+@media screen and (max-width: 1000px) {
+  .info__text {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    max-width: 320px;
+    padding-top: 52px;
+    margin: 0;
+  }
+}

@@ -1,9 +1,14 @@
 .events__carousel {
-  display: flex;
   white-space: nowrap;
-  overflow: hidden;
-  gap: 128px;
   align-items: center;
-  
+  position: relative;
+  height: 534px;
+  overflow: hidden;
 
+}
+
+@media screen and (max-width: 769px) {
+  .events__carousel {
+    
+  }
 }

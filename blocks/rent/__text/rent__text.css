@@ -7,3 +7,12 @@
   color: #F7FAFF;
   max-width: 1160px;
 }
+
+@media screen and (max-width: 500px) {
+  .rent__text {
+    font-size: 13px;
+    line-height: 16px;
+    margin: 5px;
+    text-align: center;
+  }
+}

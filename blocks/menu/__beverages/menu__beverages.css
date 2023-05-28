@@ -5,3 +5,15 @@
   align-items: center;
   margin-left: 39px;
 }
+
+@media screen and (max-width: 1230px) {
+  .menu__beverages {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .menu__beverages {
+    width: 286px;
+  }
+}

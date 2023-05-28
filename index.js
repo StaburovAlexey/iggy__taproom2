@@ -28,7 +28,7 @@ function update() {
 
   const a = width / 2;
   const b = height / 2;
-  const delta = Math.PI / img.length / 1.5;
+  const delta = Math.PI / img.length / 0.9;
 
   for (let i = 0; i < img.length; i++) {
     const leftImg = document.querySelector(
@@ -37,7 +37,7 @@ function update() {
 
     if (leftImg) {
       leftImg.style.zIndex = img.length - i;
-      leftImg.style.opacity = 1 - (3 * i) / img.length;
+      leftImg.style.opacity = 1 - (6 * i) / img.length;
       leftImg.style.left = `${
         width / 2 + a * Math.cos((Math.PI * 3) / 2 - delta * i * 2)
       }px`;
@@ -52,7 +52,7 @@ function update() {
 
     if (rightImg) {
       rightImg.style.zIndex = img.length - i;
-      rightImg.style.opacity = 1 - (3 * i) / img.length;
+      rightImg.style.opacity = 1 - (6 * i) / img.length;
       rightImg.style.left = `${
         width / 2 + a * Math.cos((Math.PI * 3) / 2 + delta * i * 2)
       }px`;

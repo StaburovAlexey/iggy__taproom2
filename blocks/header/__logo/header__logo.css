@@ -1,10 +1,17 @@
 .header__logo {
-  width: 159px;
-  height: 163px;
+  max-width: 159px;
+  max-height: 163px;
   display: block;
   position: relative;
   top: 47px;
   z-index: 2;
   object-fit: contain;
   object-position: top 0 right 7px;
+}
+
+@media screen and (max-width: 350px) {
+  .header__logo {
+    max-width: 139px;
+    max-height: 143px;
+  }
 }

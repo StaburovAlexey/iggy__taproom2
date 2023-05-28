@@ -1,7 +1,13 @@
 .events__card {
   background: #DCDCDC;
   padding-bottom: 30px;
+  padding-top: 30px;
   box-sizing: border-box;
   position: relative;
   z-index: 0;
+  max-width: 310px;
+  position: absolute;
+  transition: all .5s;
+  cursor: pointer;
 }
+
