@@ -8,3 +8,10 @@
   transition: all .5s;
   cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+  .carousel__img {
+    width: 230px;
+    height: 130px;
+  }
+}

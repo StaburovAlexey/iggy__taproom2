@@ -9,3 +9,13 @@
   margin: 19px 0;
   max-width: 560px;
 }
+
+@media screen and (max-width: 900px) {
+  .rent__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 320px;
+    margin: 18px 0 20px;
+  }
+}

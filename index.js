@@ -28,7 +28,7 @@ function update() {
 
   const a = width / 2;
   const b = height / 2;
-  const delta = Math.PI / img.length / 1.5;
+  const delta = Math.PI / img.length / 0.9;
 
   for (let i = 0; i < img.length; i++) {
     const leftImg = document.querySelector(

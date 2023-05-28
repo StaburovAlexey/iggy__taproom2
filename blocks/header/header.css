@@ -8,3 +8,10 @@
   height: 167px;
   position: relative;
 }
+
+@media screen and (max-width: 900px) {
+  .header {
+    padding: 0 13px;
+    height:89px;
+  }
+}

@@ -8,3 +8,13 @@
   margin: 0 50px 23px 0;
 
 }
+
+@media screen and (max-width: 1000px) {
+  .info__title {
+    margin: 16px 0 7px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    max-width: 125px;
+  }
+}

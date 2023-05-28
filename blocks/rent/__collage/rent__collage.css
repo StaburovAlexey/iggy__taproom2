@@ -4,7 +4,14 @@
   gap: 30px;
   padding: 30px;
   display: grid;
-  grid-template-columns: minmax(200px, 600px) minmax(200px, 600px);
+  grid-template-columns: minmax(150px, 600px) minmax(150px, 600px);
   grid-template-rows: 160px 160px 160px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px) {
+  .rent__collage {
+    padding: 5px;
+    gap: 15px;
+  }
 }

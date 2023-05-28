@@ -8,3 +8,11 @@
   margin: 0;
   max-width: 444px;
 }
+
+@media screen and (max-width: 1000px) {
+  .info__peculiarities-list{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+  }
+}

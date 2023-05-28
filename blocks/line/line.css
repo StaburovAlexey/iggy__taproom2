@@ -4,3 +4,9 @@
   position: relative;
 }
 
+@media screen and (max-width: 900px) {
+  .line {
+    width: 60px;
+  }
+}
+

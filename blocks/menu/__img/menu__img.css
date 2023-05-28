@@ -6,3 +6,10 @@
   background-size: cover;
   display: block;
 }
+
+@media screen and (max-width: 769px) {
+  .menu__img {
+    width: 286px;
+    height: 406px;
+  }
+}

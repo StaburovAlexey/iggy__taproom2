@@ -27,3 +27,9 @@
   background-color: black;
   opacity: 0.8;
 }
+
+@media screen and (max-width: 900px) {
+  .main {
+    height: 577px;
+  }
+}

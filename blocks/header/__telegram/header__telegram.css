@@ -1,0 +1,22 @@
+.header__telegram {
+  display: none;
+  background-image: url(../../../img/telegram-icon.png);
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  background-position: center;
+  background-size: cover;
+  margin:0 0 12px;
+
+}
+
+.header__telegram:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .header__telegram {
+    display: block;
+  }
+}

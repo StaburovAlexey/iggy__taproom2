@@ -10,3 +10,13 @@
   position: relative;
   max-width: 760px;
 }
+
+@media screen and (max-width: 900px) {
+  .main__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 320px;
+    margin: 18px 0 20px;
+  }
+}

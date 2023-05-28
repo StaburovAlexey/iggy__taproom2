@@ -21,3 +21,13 @@
   color: #783a30;
   border-color: #783a30;
 }
+
+@media screen and (max-width: 500px) {
+  .rent__button {
+    width: 192px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 15px auto 0;
+  }
+}
