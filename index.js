@@ -3,6 +3,14 @@ const gallery = document.querySelector(".gallery__wraper"); //slider
 const img = document.querySelectorAll(".carousel__img"); //slide
 const btnNavigation = document.querySelectorAll(".btn-navigation");
 
+const btnBurgerMenu = document.querySelector(".header__burger");
+const burgerMenu = document.querySelector(".burger-menu");
+
+btnBurgerMenu.addEventListener("click", function () {
+  btnBurgerMenu.classList.toggle("header__burger_active");
+  burgerMenu.classList.toggle("burger-menu_active");
+});
+
 init();
 
 function init() {
@@ -37,7 +45,7 @@ function update() {
 
     if (leftImg) {
       leftImg.style.zIndex = img.length - i;
-      leftImg.style.opacity = 1 - (3 * i) / img.length;
+      leftImg.style.opacity = 1 - (6 * i) / img.length;
       leftImg.style.left = `${
         width / 2 + a * Math.cos((Math.PI * 3) / 2 - delta * i * 2)
       }px`;
@@ -52,7 +60,7 @@ function update() {
 
     if (rightImg) {
       rightImg.style.zIndex = img.length - i;
-      rightImg.style.opacity = 1 - (3 * i) / img.length;
+      rightImg.style.opacity = 1 - (6 * i) / img.length;
       rightImg.style.left = `${
         width / 2 + a * Math.cos((Math.PI * 3) / 2 + delta * i * 2)
       }px`;

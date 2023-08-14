@@ -11,3 +11,12 @@
   max-width: 450px;
   margin: 0 0 68px;
 }
+
+@media screen and (max-width: 769px) {
+  .contacts__adress {
+    font-size: 13px;
+    line-height: 16px;
+    max-width: 250px;
+    margin: 0 0 30px;
+  }
+}

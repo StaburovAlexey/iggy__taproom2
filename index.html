@@ -23,12 +23,21 @@
       <li><a class="link" href="#gallery">Галлерея</a></li>
       <li><a class="link" href="#sale">Акции</a></li>
       <li><a class="link" href="#contacts">Контакты</a></li>
-      <button class="header__burger"></button>
+      <button class="header__burger" type="button"></button>
     </ul>
   </header>
 
   <main>
     <div class="main">
+      <div class="burger-menu">
+        <ul class="burger-menu__list">
+          <li><a href="#forUs">О нас</a></li>
+          <li><a href="#menu">Меню</a></li>
+          <li><a href="#rent">Аренда комнаты</a></li>
+          <li><a href="#gallery">Галерея</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </div>
       <div class="line main__line"></div>
       <h1 class="main__title">CRAFT BEER & GOOD VIBES MUSIC BAR</h1>
       <div class="line main__line"></div>
@@ -128,38 +137,6 @@
               <td>Pilsner (Villa Birra) pilsner 5%</td>
               <td align="right">400 руб</td>
             </tr>
-            <tr>
-              <td>Pilsner (Villa Birra) pilsner 5%</td>
-              <td align="right">400 руб</td>
-            </tr>
-            <tr>
-              <td>Pilsner (Villa Birra) pilsner 5%</td>
-              <td align="right">400 руб</td>
-            </tr>
-            <tr>
-              <td>Pilsner (Villa Birra) pilsner 5%</td>
-              <td align="right">400 руб</td>
-            </tr>
-            <tr>
-              <td>Pilsner (Villa Birra) pilsner 5%</td>
-              <td align="right">400 руб</td>
-            </tr>
-            <tr>
-              <td>Red Shamrock (Oka River) rad ale 6%</td>
-              <td align="right">400 руб</td>
-            </tr>
-            <tr>
-              <td>Red Shamrock (Oka River) rad ale 6%</td>
-              <td align="right">400 руб</td>
-            </tr>
-            <tr>
-              <td>Red Shamrock (Oka River) rad ale 6%</td>
-              <td align="right">400 руб</td>
-            </tr>
-            <tr>
-              <td>Red Shamrock (Oka River) rad ale 6%</td>
-              <td align="right">400 руб</td>
-            </tr>
           </table>
           <p class="beverages__ps">*меню актуально и обновляется каждый день</p>
         </div>
@@ -212,19 +189,18 @@
 
         <div class="events__carousel">
           <div class="events__card">
-            <img src="./img/photo_2023-04-26_00-53-12.jpg" alt="" class="events__card-img card-img-side">
+            <img src="./img/photo_2023-04-26_00-53-12.jpg" alt="" class="events__card-img">
             <p class="events__card-text">А в воскресенье 19.03 советуем позвать близких на пиво Okka River и Villa Birra
               по 150р. Если отдыхать, то отдыхать красиво!</p>
           </div>
           <div class="events__card">
-            <button class="events__btn-left"></button>
-            <button class="events__btn-right"></button>
+
             <img src="./img/photo_2023-04-26_00-53-22.jpg" alt="" class="events__card-img">
             <p class="events__card-text">В субботу 18.03 IGGY наполнится стилем до самого потолка - за музыку отвечают
               Sanmix и Sasha Schulz</p>
           </div>
           <div class="events__card">
-            <img src="./img/photo_2023-04-26_00-53-29.jpg" alt="" class="events__card-img card-img-side">
+            <img src="./img/photo_2023-04-26_00-53-29.jpg" alt="" class="events__card-img">
             <p class="events__card-text">В пятницу 17.03 CHIEF ROCKA в очередной раз раскачают наши тела и души!
               Надеваем одежду для танцев - BUBBLE G. и BULLETMAN уже близко</p>
           </div>
@@ -250,6 +226,8 @@
           </div>
         </div>
 
+        <button class="events__btn-left btn-navigation-card" data-dir="left"></button>
+        <button class="events__btn-right btn-navigation-card" data-dir="right"></button>
       </div>
     </div>
     <div class="contacts">
@@ -291,6 +269,7 @@
     </ul>
   </footer>
   <script src="./index.js"></script>
+  <script src="./cardSlider.js"></script>
 </body>
 
 </html>

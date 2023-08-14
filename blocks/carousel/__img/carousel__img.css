@@ -1,6 +1,6 @@
 .carousel__img {
-  max-width: 438px;
-  max-height: 248px;
+  width: 600px;
+  height: 300px;
   display: block;
   position: absolute;
   object-fit: contain;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 500px) {
   .carousel__img {
-    width: 230px;
-    height: 130px;
+    width: 300px;
+    height: 200px;
   }
 }

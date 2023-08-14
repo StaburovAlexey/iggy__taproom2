@@ -24,3 +24,9 @@
   opacity: 0.6;
   z-index: -3;
 }
+
+@media screen and (max-width: 769px){
+  .contacts {
+    padding: 42px 10px 30px;
+  }
+}

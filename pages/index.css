@@ -70,5 +70,5 @@
 @import url(../blocks/footer/__vk/footer__vk.css);
 @import url(../blocks/footer/__info/footer__info.css);
 @import url(../blocks/link/link.css);
-@import url();
-@import url();
+@import url(../blocks/burger-menu/burger-menu.css);
+@import url(../blocks/burger-menu/__list/burger-menu__list.css);
