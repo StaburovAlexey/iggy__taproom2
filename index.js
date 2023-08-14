@@ -3,6 +3,14 @@ const gallery = document.querySelector(".gallery__wraper"); //slider
 const img = document.querySelectorAll(".carousel__img"); //slide
 const btnNavigation = document.querySelectorAll(".btn-navigation");
 
+const btnBurgerMenu = document.querySelector(".header__burger");
+const burgerMenu = document.querySelector(".burger-menu");
+
+btnBurgerMenu.addEventListener("click", function () {
+  btnBurgerMenu.classList.toggle("header__burger_active");
+  burgerMenu.classList.toggle("burger-menu_active");
+});
+
 init();
 
 function init() {

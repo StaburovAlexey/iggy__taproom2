@@ -5,9 +5,22 @@
   background-color: transparent;
   border: none;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   display: none;
-  margin:0 0 10px;
+  margin: 0 0 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header__burger_active {
+  background-image: url(../../../img/close\ burger.png);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 16px;
+  margin: 0;
+
 }
 
 @media screen and (max-width: 900px) {

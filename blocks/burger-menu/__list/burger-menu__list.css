@@ -1,0 +1,24 @@
+.burger-menu__list {
+  padding: 0;
+  margin: 145px 0 0 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.burger-menu__list a {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+
+
+}

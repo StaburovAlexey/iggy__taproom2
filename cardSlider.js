@@ -8,6 +8,7 @@ const evtWraper = document.querySelector(".events__wraper");
 const card = document.querySelectorAll(".events__card");
 const btnNavigationCard = document.querySelectorAll(".btn-navigation-card");
 
+let activeOrder = 0;
 initCard();
 
 function initCard() {
