@@ -1,4 +1,6 @@
-# Проект: сайт бара Iggy Taproom
+# Cайт для бара Iggy Taproom
+
+https://staburovalexey.github.io/iggy__taproom2/
 
 ### Что реализовано:
 1. Адаптивная c 320 до 1024 верстка с использованием @media.
